@@ -1,0 +1,265 @@
+ё@font-face {
+    font-family: 'brands';
+    src: url(fonts/fa-brands-400.ttf)
+}
+
+@font-face {
+    font-family: 'Roboto_R';
+    src: url(fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: 'Roboto-M';
+    src: url(fonts/Roboto-Medium.ttf);
+}
+
+
+@font-face {
+    font-family: 'Philosopher-R';
+    src: url(fonts/Philosopher-Regular.ttf);
+}
+@font-face {
+    font-family: 'Philosopher-B';
+    src: url(fonts/Philosopher-Bold.ttf);
+}
+@font-face {
+    font-family: 'Roboto-I';
+    src: url(fonts/Roboto-Italic.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.exampl>div {
+    border: 1px solid #000;
+}
+
+header {
+    margin-top: -7px;
+    background: #008daa; 
+    font-family: 'Roboto_R';
+}
+
+.link, .fa-brands {
+    color: #d4d0c8;
+    padding: 0;
+   
+}
+
+.link:active, .fa-brands:active {
+    color: #d4d0c8;
+}
+
+.link:hover, .fa-brands:hover {
+    color: #eeeeed;
+}
+.icon-top, .top-bar {
+    margin: 18px 0;
+    
+}
+.bar  {
+    display: flex;
+    align-items: baseline;
+    margin: 18px 0px 18px 15px;
+    justify-content: space-between;
+}
+.link_green {
+    text-decoration: none;
+    color: #06bac5;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.link_green:active {
+    color: #06bac5;
+}
+.link_green:hover {
+    color: #eb477b;
+}
+.grey-scroll {
+    background: #eeeeed;
+}
+.slogan>h1 {
+    font-family: 'Philosopher-R';
+    font-size: 52px;
+    text-align: right;
+    color: #005c7b;
+}
+.illustr {
+    margin-left: -85px;
+}
+.slogan>.h4 {
+    font-family: 'Roboto-M';
+    text-align: right;
+    color: #005c7b;
+    margin-top: 100px;
+}
+.slogan>button {
+    color: #eeeeed;
+    background:  #005c7b;
+    border-radius: 100px;
+    width: 300px;
+    padding: 15px;
+    font-family: 'Roboto_R';
+    font-size: 25px;
+    position: absolute; 
+    left: 70%;
+    margin-top: 30px;    
+}
+.slogan>button:hover {
+    color: #eeeeed;
+    background: #eb477b;
+}
+
+.info>.h1 {
+    font-family: 'Philosopher-B';
+    text-align: center;
+    margin-top: 125px;
+    color: #005c7b;
+    
+}
+.info>.h4 {
+    text-align: justify;
+    text-align-last: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: #005c7b;
+    font-family: 'Roboto_R';
+}
+.info>.left {
+    text-align: left;
+}
+
+.plus {
+    padding: 140px 100px 100px;
+    font-family: 'Philosopher-R';
+    color: #005c7b;
+    text-align: center;
+}
+.plus>.h5 {
+    font-family: 'Roboto_R';
+    text-align: center;
+    color: #06bac5;
+}
+.study {
+    background: url(img/icons8-шапка-выпускника-100.png) no-repeat top;
+}
+
+.diploma {
+    background: url(img/icons8-диплом-2-100.png) no-repeat top;
+}
+.pay {
+    background: url(img/price.png) no-repeat top;
+}
+
+.left {
+    font-family: 'Roboto_R';
+    color: #005c7b;
+    text-align: left;
+}
+.left>p {
+    margin: 50px 0 0;
+}
+
+.left>p>.fa-regular {
+    padding: 0 30px 0;
+}
+.collps, .collps:active, .collps:hover {
+    color: #008daa;
+    font-family: 'Philosopher-B';
+}
+
+.collps[aria-expanded="false"] .fa-solid {
+    transform: rotate(180deg);
+    transition: transform .1s;
+}
+
+.collps[aria-expanded="true"] .fa-solid {
+    transform: rotate(0deg);
+    transition: transform .1s;
+}
+.info>.h1-link, .info>.h1-link:active {
+    color:#008daa;
+    display: block;  
+    text-align: center;
+    margin-top: 50px;
+    text-decoration-line: underline;
+}
+.info>.h1-link:hover {
+    color: #eb477b;
+    text-decoration-line: underline;
+    
+}
+.carousel_style {
+    padding-left: 130px;
+    padding-right: 130px;
+    text-align: justify;
+    height: 479px;
+}
+.feedback {
+   margin: 30px ;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 100px; 
+   width: 181px;
+    height: auto;
+}
+
+.info>.h4_name {
+    margin-top: -10px;
+    margin-bottom: 0;
+    font-family: 'Philosopher-R';
+} 
+.fa-3x {
+    margin-top: -300px;
+    
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    
+}
+.vk, .fb, .inst, .tw {
+    margin: 20px 50px 120px 50px;
+}
+
+.vk:hover {
+    content: url(img/vk-pink.png);
+}
+.fb:hover {
+    content: url(img/fb-pink.png);
+}
+.inst:hover {
+    content: url(img/inst-pink.png);
+}
+.tw:hover {
+    content: url(img/tw-pink.png);
+}
+footer {
+    margin-top: -7px;
+    background: #008daa; 
+    font-family: 'Roboto_R';
+    
+}
+.foot {
+    margin: 40px 0;
+    color: #eeeeed;
+    font-size: 19px;
+    justify-content: space-between;
+}
+.foot>a {
+    text-decoration-line: underline;
+    color: #eeeeed;
+    font-size: 15px;
+}
+.foot>a:active {
+    color: #eeeeed;
+}
+.foot>a:hover {
+    color: #d4d0c8;
+}
